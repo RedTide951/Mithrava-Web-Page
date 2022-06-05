@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color: rgb(235, 235, 235);
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+.navbar-list {
+  background-color: #121212;
+  font-size: 150%;
+  word-spacing: 10em;
+  font-family: "Poppins";
+  display: list-item;
+  letter-spacing: 5px;
+}
+
+.navbar-list a:link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.navbar-list a:visited {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.navbar-list a:hover {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.navbar-list a:active {
+  text-decoration: none;
+}
+
+.hero {
+  size: 10px 10px;
+  padding: 5em;
+}
+
+.hero .h2 {
+  color: silver;
+  text-align: center;
+  letter-spacing: 1em;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.logo {
+  padding-top: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 5em;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background: black;
+  color: #55ACEE;
+}
+
+.fa-instagram {
+  background: black;
+  color: #C13584;
+}
+
+.fa-youtube {
+  background: black;
+  color: #FF0000;
+}
+
+.email {
+  display: block;
+  background-color: #222222;
+  margin: auto;
+  width: 20%;
+  height: 20px;
+  border: none;
+  resize: none;
+  outline: none;
+  color: aqua;
+  margin-bottom: 1em;
+  font-family: "Poppins";
+}
+
+.button-submit {
+  display: block;
+  margin: auto;
+  width: 10%;
+  height: 30px;
+  margin-bottom: 5em;
+  border: none;
+  background-color: #4e4e4e;
+  font-family: "Poppins";
+}
+
+.button-submit:hover {
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.upcoming-concerts-header {
+  text-align: center;
+  font-family: "Poppins";
+  color: #cdcdcd;
+  letter-spacing: 0.3em;
+  margin-bottom: 1em;
+  font-size: 50px;
+}
+
+.upcoming-concerts {
+  background: #000000;
+  padding: 2em;
+}
+
+.column {
+  background-image: -webkit-gradient(linear, left top, right top, from(#232323), to(#121212));
+  background-image: linear-gradient(to right, #232323, #121212);
+  border-radius: 4em;
+}
+
+.concert-date {
+  color: azure;
+  font-family: "Poppins";
+  margin-left: 2em;
+}
+
+.concert-place {
+  color: azure;
+  font-family: "Poppins";
+  margin-left: 4em;
+}
+
+.concert-city {
+  color: azure;
+  font-family: "Poppins";
+  margin-left: 4em;
+}
+
+.button-buy-tickets {
+  background-color: #101010;
+  margin: auto;
+  display: block;
+  font-size: 3em;
+  font-family: "Bebas Neue";
+  letter-spacing: 0em;
+  border: none;
+  border-style: none;
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.button-buy-tickets:hover {
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.button-view-more {
+  margin-left: 35em;
+  border: none;
+  border-style: none;
+  background-color: transparent;
+  font-size: 2em;
+  font-family: "Bebas Neue";
+  color: aliceblue;
+  letter-spacing: 0.5em;
+  padding-bottom: 1em;
+  padding-top: 0em;
+}
+
+.button-view-more:hover {
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.links {
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: 1em;
+}
+/*# sourceMappingURL=main.css.map */
