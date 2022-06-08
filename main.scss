@@ -6,6 +6,9 @@
  
 }
 
+hr {
+    color:  gray;
+  }
 
 
 body {
@@ -88,13 +91,31 @@ body {
     color: var(--primary-color);
   }
 
+  .fa-spotify {
+    background: black;
+    color: var(--primary-color);
+  }
+  .fa-amazon {
+    background: black;
+    color: var(--primary-color);
+  }
+  .fa-apple {
+    background: black;
+    color: var(--primary-color);
+  }
+
+.float-container {
+    margin-top: 50px;
+    margin-bottom: 7em;
+}
 
 .email {
     display: block;
     background-color: #222222;
     margin: auto;
-    width: 20%;
-    height:20px;
+    width: 40%;
+    font-size: larger;
+    height: 30px;
     border: none;
     resize: none;
     outline: none;
@@ -122,7 +143,7 @@ body {
 .upcoming-concerts-header {
     text-align: center;
     font-family: "Poppins";
-    color: rgb(205, 205, 205);
+    color: whitesmoke;
     letter-spacing: 0.3em;
     margin-bottom: 1em;
     font-size: 50px;
@@ -354,4 +375,51 @@ body {
 
 .merch-image {
     border-radius: 2em;
+}
+
+.album-promote-container {
+    margin: 100px;
+    text-align: center;
+    display: block;
+}
+
+.img-container {
+    text-align: center;
+    padding: 1em;
+}
+
+#album-out-header {
+    text-align: center;
+    font-family: "Poppins";
+    color: var(--primary-color);
+    font-size: 4em;
+    margin-bottom: 5px;
+}
+
+#album-out-header2 {
+    text-align: center;
+    font-family: "Poppins";
+    color: var(--primary-color);
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+#player {
+    border-radius: 2em;
+}
+
+.play-pause {
+    text-align: center;
+}
+
+#album-cover {
+    width: 50%;
+    border-radius: 2em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#player {
+    margin: 15px;
 }
