@@ -18,6 +18,7 @@ body {
 .navbar {
     text-align: center;
     position:fixed; left:0px; right:0px; top: 0px;
+    white-space: nowrap;
 }
 
 .navbar-list {
@@ -27,23 +28,41 @@ body {
     a:hover { text-decoration: none; color: antiquewhite;}
     a:active { text-decoration: none; }
     font-size: 150%;
-    word-spacing: 10em;
+    word-spacing: auto;
     font-family: "Poppins";
     display: list-item;
     letter-spacing: 5px;
-    
+    padding: 0;
 
+    .navbar-li {
+        display: inline;
+        float: left;
+        width:25%;
+    }
+}
+
+
+.content {
+    text-align: center;
+    display: block;
+    padding: auto;
 }
 
 .hero {
-    size: 10px 10px;
     padding: 5em;
+    text-align: center;
+    padding: auto;
 
     .h2 {
         color: rgb(192, 192, 192);
+        font-family: "Poppins";
         text-align: center;
-        letter-spacing: 1em;
-        font-family: "Poppins"
+        font-size: 100%;
+        margin: auto;
+        margin-top: 1em;
+        letter-spacing: 0.3em;
+        display: block;
+        white-space: nowrap;
     }
 }
 
@@ -51,9 +70,11 @@ body {
 
 .logo {
     padding-top: 2em;
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    min-width: 300px;
     width: 50%;
     padding-top: 5em;
 
@@ -126,8 +147,8 @@ body {
 .button-submit {
     display: block;
     margin: auto;
-    width: 10%;
-    height:30px;
+    width: 15%;
+    height: 30px;
     margin-bottom: 5em;
     border: none;
     background-color: rgb(78, 78, 78);
@@ -144,7 +165,7 @@ body {
     text-align: center;
     font-family: "Poppins";
     color: whitesmoke;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     margin-bottom: 1em;
     font-size: 50px;
 }
@@ -157,23 +178,24 @@ body {
 #concert-table {
     text-align: center;
     width: 100%;
-    padding-left: 6em;
-    padding-right: 4em;
+    padding: auto;
 }
 
 
 .concert-date {
     color: azure;
     font-family: "Poppins";
-    font-size: x-large;
+    font-size: auto;
     text-align: left;
-    max-width: 30px;
+    max-width: 100px;
 }
 
 .concert-place {
     color: azure;
     font-family: "Poppins";
     text-align: left;
+    padding-left: 0.5em;
+
 }
 
 .concert-city {
@@ -203,7 +225,10 @@ body {
     text-align: right;
     padding: 2em;
     padding-right: 5em;
+
+
 }
+
 
 .button-view-more {
     
@@ -247,6 +272,11 @@ body {
     margin-bottom: 100px;
 }
 
+.about-mobile {
+    display: none;
+    margin: 1em;
+}
+
 #bio {
     font-family: "Poppins";
     color: var(--primary-color);
@@ -254,6 +284,15 @@ body {
     padding: 3em;
     padding-right: 1em;
     text-align: left;
+}
+
+#bio-mobile {
+    text-align: center;
+    font-family: "Poppins";
+    color: var(--primary-color);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 1em;
 }
 
 .links {
@@ -422,4 +461,61 @@ body {
 
 #player {
     margin: 15px;
+}
+
+
+@media (max-width: 767px) {
+    .wiev-more {
+      text-align: center;
+    }
+    .button-view-more {
+        text-align: center;
+      }
+    .logo {
+        width: 100%;
+    }
+    .navbar-list {
+        letter-spacing: 0px;
+    }
+    .album-promote-container {
+        margin: 1em;
+        text-align: center;
+        display: block;
+    }
+    #album-out-header {
+        text-align: center;
+        font-family: "Poppins";
+        color: var(--primary-color);
+        font-size: 3em;
+        margin-bottom: 5px;
+    }
+    .merch {
+        margin: 1em;
+    
+     }
+     #buy-merch-header {
+        text-align: center;
+        font-family: "Poppins";
+        padding-right: 1em;
+        color: var(--primary-color);
+        font-size: 2em;
+    }
+    #merch-table {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    #about-table {
+        display: none;
+    }
+    #photo-container {
+        width: 100%;
+    }
+    #bio-container {
+        font-size: small;
+    }
+    .about-mobile {
+        display: block;
+    }
+
 }

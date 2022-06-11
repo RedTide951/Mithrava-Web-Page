@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mithrava Band</title>
-    <script type="text/javascript" src="/script.js"></script>
-    <link rel="stylesheet" href="/main.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     </head>
 <body>
     <div class="navbar">
         <ul class="navbar-list">
-            <a href="">Home</a>
-            <a href="">Music</a>
-            <a href="">Media</a>
-            <a href="">Shop</a>
+            <li class="navbar-li"><a href="">Home</a></li>
+            <li class="navbar-li"><a href="">Music</a></li>
+            <li class="navbar-li"><a href="">Media</a></li>
+            <li class="navbar-li"><a href="">Shop</a></li>
         </ul>
        
     </div>
@@ -27,7 +27,7 @@
         </video> -->
         <div class="content">
             <img class="logo" src="/images/yeni logo6 final png.png" alt="Mithrava Logo">
-            <h2 class="h2">The new sound of Izmir</h2>
+            <h2 class="h2 hidden-xs">The new sound of Izmir</h2>
             <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
           </div>   
 
@@ -83,7 +83,7 @@
         <table id="merch-table" style="margin-left:auto;margin-right:auto;">
             <td id="merch-column-left">
                 <h1 id="buy-merch-header">Buy Mithrava merch now!</h1>
-                <button class="button-view-more">Go to Shop</button>
+                
             </td>
             <td id="merch-column-right">
                 <!-- Slideshow container -->
@@ -118,19 +118,26 @@
                     <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
             </td>
-
+            
         </table>
+        <button class="button-view-more">Go to Shop</button>
     </div>
 
 
-        <div class="about">
-            <table id="about-table">
+    <div class="about">
+        <table id="about-table">
                 <th id="photo-container">
                     <img id="band-photo" src="/images/1644172990848ss.jpg" alt="A Photo of Mithrava">
                 </th>
                 <th id="bio-container">
                     <p id="bio">A hard-hitting metalcore band from Izmir / Turkey. Mithrava was founded in 2021 by vocalist Oğuzhan Bütüner and lead guitarist Alperen Yıldız. Then Ege Alpat and Arda Çaylı joined as drummer and bassist respectively. The band self-released their first demo, Distances, shortly after their formation. </p>
                 </th>
+        </table>
+    </div>
+
+    <div class="about-mobile">
+                    <img id="band-photo" src="/images/1644172990848ss.jpg" alt="A Photo of Mithrava">
+                    <p id="bio-mobile">A hard-hitting metalcore band from Izmir / Turkey. Mithrava was founded in 2021 by vocalist Oğuzhan Bütüner and lead guitarist Alperen Yıldız. Then Ege Alpat and Arda Çaylı joined as drummer and bassist respectively. The band self-released their first demo, Distances, shortly after their formation.</p>
         </table>
     </div>
 
